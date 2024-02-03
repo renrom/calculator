@@ -1,0 +1,96 @@
+@font-face{
+    font-family: casio;
+    src: url("../fonts/casio.ttf");
+}
+
+@font-face {
+    font-family: calculatorfont;
+    src: url("../fonts/ds-digi.ttf");
+}
+
+
+
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+    background-image: url("../images/geometry.jpg");
+    background-size: cover;
+
+
+}
+.header {
+
+    font-family: calculatorfont;
+    text-align: center;
+    font-size: 36px;
+    background-color: rgb(54, 54, 107);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(10,26,108,1) 35%, rgba(0,212,255,1) 100%);
+    color: rgb(214, 214, 200);
+    padding: 15px;
+    padding-bottom: 5vh;
+}
+
+.calculator-body {
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+    
+    background: rgb(177,176,181);
+    background: linear-gradient(0deg, rgba(177,176,181,1) 0%, rgba(230,230,232,1) 81%, rgba(230,230,232,1) 100%);
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+
+.calc-header{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+.calculator-leftheader {
+    border: 1px dotted black;
+    font-family: casio;
+    letter-spacing: .1rem;
+    text-align: left;
+    font-size: 26px;
+    font-weight:bolder;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 26px;
+}
+
+.calculator-rightheader{
+
+    background-color: #321602 ;
+    border: 3px solid #666a6d;
+    border-radius: 5%;
+    width: 100px;
+    height: 40px;
+    padding-right: 50px;
+    margin-right: 50px;
+
+}
+
+.calculator-display {
+    border: 1px dotted black;
+
+}
+.calculator-keyboard {
+    border: 1px dotted black;
+
+}
