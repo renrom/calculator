@@ -8,9 +8,6 @@
     src: url("../fonts/ds-digi.ttf");
 }
 
-
-
-
 body {
     margin: 0;
 }
@@ -53,7 +50,6 @@ body {
     border-bottom-right-radius: 5%;
 }
 
-
 .calc-header{
     display: flex;
     flex: auto;
@@ -87,7 +83,20 @@ body {
 }
 
 .calculator-display {
-    border: 1px dotted black;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px solid #5c6066;
+    background-color: #d5e2e2;
+    height: 80px;
+    font-family: calculatorfont;
+    font-size: 56px;
+    font-weight: bold;
+    padding-right: 5px;
+    
+
+
 
 }
 .calculator-keyboard {
