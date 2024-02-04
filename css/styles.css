@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     flex: auto;
     justify-content: space-around;
-    height: 80vh;
+    height: 100vh;
     align-items: center;
     background-image: url("../images/geometry.jpg");
     background-size: cover;
@@ -35,13 +35,13 @@ body {
     background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(10, 26, 108, 1) 35%, rgba(0, 212, 255, 1) 100%);
     color: rgb(214, 214, 200);
     padding: 15px;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 
 .calculator-body {
     border: 4px solid black;
     width: 350px;
-    height: 600px;
+    height: 550px;
     padding: 2px;
 
     background: rgb(127, 126, 128);
@@ -58,8 +58,6 @@ body {
     flex: auto;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 .calculator-leftheader {
@@ -72,7 +70,6 @@ body {
     margin-top: 25px;
     margin-left: 20px;
     margin-bottom: 26px;
-
 }
 
 .calculator-rightheader {
@@ -84,7 +81,6 @@ body {
     height: 40px;
     padding-right: 50px;
     margin-right: 50px;
-
 }
 
 .calculator-display {
@@ -101,7 +97,6 @@ body {
     font-weight: bold;
     padding-right: 5px;
     margin-bottom: 20px;
-
 }
 
 .calculator-keyboard {
@@ -123,7 +118,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
 .button {
@@ -134,8 +128,8 @@ ul {
     border-bottom-right-radius: 25%;
     border-bottom-left-radius: 25%;
     color: #d1d2d9;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
